@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnishing- The Interior Harvest</title>
+    <link rel="icon" type="image/png" href="../favicon/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/furnishing css.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+   
+    <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2adfcbaf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+    <nav class="navbar " id="navbar">
+        <div class="navbar-flex container-width">
+            <div class="logo-container">
+                <a href="../../Index.html"> <img class="logo" id="logo" src="../images/mainLogo.png" alt="logo"
+                        width="100%" height="100%"></a>
+            </div>
+            <div class="hamburgerCont" id="hamburgerC" onclick="viewNAV()">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <div id="overlay-nav" class="overlay">
+                <p class="close" id="close" onclick="closeNAV()">&times;</p>
+                <ul>
+                    <li><a href="../../Index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="service_main.html" id="active">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="vacancy.html">Vacancy</a></li>
+                    <li class="contact">
+                        <a href="contactus.html">Contact Us</a></li>
+                    <a id="tollResp" href="tel:100200300"> Toll-free 100200300</a>
+                </ul>
+            </div>
+            <ul class="navlist">
+                <a href="../../Index.html"> <i class="fas fa-home liHome"
+                        style="font-size:34px;padding-right:12px"></i></a>
+                <i class="fas fa-circle"></i>
+                <li><a href="aboutus.html">About Us</a></li>
+                <i class="fas fa-circle"></i>
+                <li><a href="service_main.html" class="active">Services</a></li>
+                <i class="fas fa-circle"></i>
+                <li><a href="project.html">Projects</a></li>
+                <i class="fas fa-circle"></i>
+                <li><a href="team.html">Our Team</a></li>
+                <i class="fas fa-circle"></i>
+                <li><a href="vacancy.html">Vacancy</a></li>
+                <i class="fas fa-circle"></i>
+                <li class="contact"><a class="toll" id="toll" href="tel:100200300"> Toll-free 100200300</a>
+                    <a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <hr id="hr">
+    </nav>
+
+    <section class="container-width" style="padding-bottom:100px">
+        <div class="hero">
+            <div class="hero image">
+                <img src="../images/furnishing.jpg" style="width:100%;height:500px;">
+            </div>
+            <div class="hero-text">Furnishing</div>
+        </div>
+
+        <div class="furnishing">
+            <p>We at Interior Harvest offers innovative furnishing ideas for every room including custom designed home
+                interiors as per the customers needs.<br>Our furnishing materials
+                ranges from sofas and armchairs, tables and chairs, curtains and cushions, garden furnitures, kids
+                furnitures,bedroom, wardrobes and cabinets and kitchen furnishing<br>
+                Choose from our wide range of furnishing materials available in different materials and colours.</p>
+        </div><br><br><br>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="../images/image 1.jpg" style="width:100%;height:600px">
+                <div class="text">Sofas And Armchairs</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="../images/image 2.jpg" style="width:100%;height:600px;">
+                <div class="text">Tables And Chairs</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="../images/image 3.jpg" style="width:100%;height:600px">
+                <div class="text">Wardrobes and Cabinets</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="../images/image 4.jpg" style="width:100%;height:600px;">
+                <div class="text">Bedroom Furnishing</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="../images/image 5.jpg" style="width:100%;height:600px;">
+                <div class="text">Kids Furnitures</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="../images/image 6.jpg" style="width:100%;height:600px;">
+                <div class="text">Garden Furnishing</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="../images/image 7.jpg" style="width:100%;height:600px;">
+                <div class="text">Curtains And Cushions</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="../images/image 8.jpg" style="width:100%;height:600px;">
+                <div class="text">Kitchen Furnishing</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer container-width">
+            <div class="policies">
+                <a href="privacy.html">Privacy policy </a>|
+                <a href="terms.html"> Terms of use </a>|
+                <a
+                    href="https://www.google.com/search?q=interior+harvest&rlz=1C1CHBF_enIN911IN911&oq=interior+harvest&aqs=chrome..69i57j0i22i30i457j0i22i30l2j0i10i22i30j69i60j69i61l2.7743j0j7&sourceid=chrome&ie=UTF-8">
+                    Review Us</a>
+                <Address><u><b>Office</b></u>: 301-302, Third Floor, Kaushalaya Estate,<br> Bander Bagicha, Patna, Bihar
+                    800001</Address>
+            </div>
+            <small>&copy;2020 The Interior Harvest | All Rights Reserved
+            </small>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.blogger.com/about/" target="_blank"><i class="fab fa-blogger-b"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <br>
+                <a href="mailto:info@interiorharvest.com" target="_blank"><b><u>E-mail</u></b>:
+                    <span>info@interiorharvest.com</span></a>
+            </div>
+        </div>
+    </footer>
+   
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var j;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (j = 0; j < slides.length; j++) {
+        slides[j].style.display = "none";
+    }
+    for (j = 0; j < dots.length; j++) {
+        dots[j].className = dots[j].className.replace(" activeFurnishing", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " activeFurnishing";
+}
+    </script>
+    <script src="../javascript/javscript.js"></script>
+    
+</body>
+
+</html>

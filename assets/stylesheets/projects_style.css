@@ -1,0 +1,53 @@
+.living_room{
+  margin-top: 13%;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 34px;
+  color: #373a36;
+  text-shadow: 2px 1px 5px #525752;
+}
+
+img {
+  border-radius: 5px;
+  margin: 5px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagesRev{
+  flex-direction: row-reverse;
+}
+
+.right_row,.left_row {
+  display: flex;
+}
+
+._img{
+  width: 50%;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.office{
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  .images{
+    flex-direction: column;
+  }
+  ._img{
+    width: 80%;
+  }
+
+
+}

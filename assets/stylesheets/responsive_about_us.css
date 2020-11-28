@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 1250px) {
+  .first-container {
+ 
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+  .first_about_us_image {
+    float: none;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+  }
+  .first_text {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .second-container {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+  .second_about_us_image {
+    float: none;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+  }
+  .second_text {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .third-container h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  .media_features img{
+    margin-bottom: 130px;
+  }
+}
